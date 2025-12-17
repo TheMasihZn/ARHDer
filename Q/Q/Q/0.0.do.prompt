@@ -1,0 +1,44 @@
+how do i change your chat context
+> to take a directory as root of the project
+> or even sandboxing?
+
+✦ To change the project root, you need to start the
+  gemini CLI from the desired directory. For example:
+
+   1 cd path\to\your\project
+   2 gemini
+
+  To enable sandboxing, you can use the
+  --enable-sandbox flag when starting the CLI:
+
+   1 gemini --enable-sandbox
+
+  You can combine these to start in a specific project
+  directory with sandboxing enabled:
+
+   1 cd path\to\your\project
+   2 gemini --enable-sandbox
+
+> when to use sandbox
+
+✦ Use the sandbox to create an isolated environment
+  that prevents tools and commands from affecting your
+  broader system. It's recommended for:
+
+   1. Working with untrusted code: When you're dealing
+      with third-party scripts or repositories you
+      haven't fully vetted.
+   2. Tasks requiring risky commands: If a task
+      involves installing new software, running
+      complex build scripts, or modifying system
+      configurations.
+   3. Preventing accidental changes: To protect your
+      system from unintentional file deletions or
+      modifications outside of the project directory.
+   4. Experimentation: When you want to try out new
+      dependencies or tools without altering your main
+      development environment.
+
+  As a general rule, if you are unsure about the
+  commands that might be run or the code you are
+  working with, using the sandbox is the safer choice.
