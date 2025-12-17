@@ -12,3 +12,5 @@ read every file with suffic .prompt
 
 also:
 AnyFile.rightClickOnTheProjectMenu.new-> prompt
+AnyFile.rightClickOnTheProjectMenu.openGeminiHere
+ProjectMenu.AnyFolderNamed('Q').showLastInList()
