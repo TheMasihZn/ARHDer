@@ -1,0 +1,12 @@
+make me an intellij plugin
+(based on what ever reference you might need in 0.do.prompt)
+so that it would:
+read every file with suffic .prompt
+ && load it based on a custom interpretation toolchain (
+        this toolchain should be available with
+        .prompt.rightClickOnTheProjectMenu
+    )
+     {
+
+    }
+
